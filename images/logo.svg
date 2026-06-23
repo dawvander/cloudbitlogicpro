@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path d="M14 22 C7 22 2 17 2 11 C2 5 7 0 14 0 C16 0 18 0 20 1 C22-2 25-4 28-4 C33-4 37 0 37 5 C37 6 37 7 36 8 C39 9 41 12 41 15 C41 19 37 22 33 22 Z" fill="none" stroke="url(#logoGrad)" stroke-width="1.6"/>
+    <text x="9" y="17" font-family="monospace" font-size="9" fill="url(#logoGrad)" font-weight="700">01</text>
+  </g>
+  <text x="56" y="28" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="800" fill="#e6f1ff">cloudbit</text>
+  <text x="170" y="28" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="300" fill="url(#logoGrad)">logic</text>
+  <text x="56" y="46" font-family="monospace" font-size="8" fill="#5a6d8a">PRO . STUDIO . 2026</text>
+</svg>

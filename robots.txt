@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+
+Sitemap: https://cloudbitlogicpro.com/sitemap.xml

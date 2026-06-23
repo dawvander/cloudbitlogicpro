@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#050810">
+    <meta name="color-scheme" content="dark">
+    <title>Technical Compliance - cloudbitlogicpro | 2026 iOS 18 / Android 15 Compliance Guide</title>
+    <meta name="description" content="2026 Technical Compliance Execution Guide. Apple App Store Privacy Labels, ATT, iOS 18 requirements, Google Play Data Safety Form, Android 15 Privacy Sandbox, SDK transparency, data residency, and interaction design.">
+    <link rel="canonical" href="https://cloudbitlogicpro.com/technical-compliance.html">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<div class="page-loader" aria-hidden="true">
+    <div class="loader-text">Initializing System</div>
+    <div class="loader-bar"></div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <defs>
+        <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+        <symbol id="i-bars" viewBox="0 0 24 24"><path d="M3 12h18M3 6h18M3 18h18"/></symbol>
+        <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
+        <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></symbol>
+        <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></symbol>
+        <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></symbol>
+        <symbol id="i-eye" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></symbol>
+        <symbol id="i-lock" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></symbol>
+        <symbol id="i-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></symbol>
+        <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8zM14 2v6h6M16 13H8M16 17H8M10 9H8"/></symbol>
+    </defs>
+</svg>
+<header class="site-header" role="banner">
+    <nav class="nav" aria-label="Primary">
+        <a href="index.html" class="nav-logo" aria-label="cloudbitlogicpro home">
+            <svg class="logo-icon" viewBox="0 0 64 64" aria-hidden="true">
+                <defs>
+                    <linearGradient id="navLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#00f0ff"/>
+                        <stop offset="100%" stop-color="#7c3aed"/>
+                    </linearGradient>
+                </defs>
+                <path d="M22 40 C10 40 2 32 2 22 C2 12 10 4 22 4 C26 4 30 5 32 7 C36 2 41 -1 47 -1 C56 -1 63 6 63 14 C63 16 63 18 62 20 C67 22 70 27 70 32 C70 39 64 44 57 44 Z" transform="translate(-3,8)" fill="none" stroke="url(#navLogoGrad)" stroke-width="2.5" stroke-linejoin="round"/>
+                <text x="14" y="40" font-family="monospace" font-size="14" fill="url(#navLogoGrad)" font-weight="700">cb</text>
+            </svg>
+            <span class="logo-text">cloudbit<span class="accent">logic</span></span>
+        </a>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="advantages.html">Advantages</a></li>
+            <li><a href="news.html">Updates</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="nav-cta">
+            <span>Start Project</span>
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><use href="#i-arrow"/></svg>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><use href="#i-bars"/></svg>
+        </button>
+    </nav>
+</header>
+
+<main>
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <nav class="breadcrumb" aria-label="Breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span class="sep">/</span>
+                    <span class="current">Technical Compliance</span>
+                </nav>
+                <h1 class="page-title">Technical <span class="gradient-text">Compliance</span></h1>
+                <p class="page-subtitle">The 2026 Technical Compliance Execution Guide. Detailed technical standards for Apple App Store, Google Play, data residency, and interaction design 鈥?ensuring full compliance across all global regions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="legal-layout">
+                <aside class="legal-sidebar">
+                    <h4>Contents</h4>
+                    <ul class="legal-nav">
+                        <li><a href="#intro">Introduction</a></li>
+                        <li><a href="#ios">Apple App Store (iOS)</a></li>
+                        <li><a href="#android">Google Play (Android)</a></li>
+                        <li><a href="#data">Data Residency</a></li>
+                        <li><a href="#ux">UX / Interaction</a></li>
+                        <li><a href="#data-rights">Data Subject Rights</a></li>
+                        <li><a href="#audit">Compliance Auditing</a></li>
+                        <li><a href="#incident">Incident Response</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </aside>
+
+                <article class="legal-content">
+                    <div class="legal-update">
+                        <span>Document Version: 2026.01.15 // Compliance Edition</span>
+                    </div>
+
+                    <h1>2026 Technical Compliance Execution Guide</h1>
+                    <p><strong>Effective Date:</strong> January 15, 2026 &nbsp;&nbsp;|&nbsp;&nbsp; <strong>Last Updated:</strong> January 15, 2026</p>
+                    <p>This guide combines the latest 2026 Apple App Store, Google Play policies, and global regional compliance requirements to clarify technical execution standards, ensure full compliance in application R&D, listing, and operation, avoid risks of application removal or punishment due to technical violations, and adapt to the latest system version requirements such as <strong>Android 15</strong> and <strong>iOS 18</strong>.</p>
+                    <p>This is the 2026 Global Full-Compliance Deep-Enhanced Edition. It supplements regional compliance details, technical execution standards, and risk prevention measures based on the latest 2026 global data sovereignty and app store policy changes.</p>
+
+                    <h2 id="intro">1. Introduction</h2>
+                    <p>This document is divided into five parts:</p>
+                    <ol>
+                        <li><strong>Apple App Store (iOS)</strong> &mdash; iOS 18, ATT, Privacy Labels, in-app disclosure</li>
+                        <li><strong>Google Play (Android)</strong> &mdash; Android 15, Privacy Sandbox, Data Safety Form, SDK transparency</li>
+                        <li><strong>Data Residency</strong> &mdash; Global data sovereignty, cross-border transfer rules</li>
+                        <li><strong>Interaction Design</strong> &mdash; Double confirmation, privacy policy placement, ATT/permission UX</li>
+                        <li><strong>Data Subject Rights & Auditing</strong> &mdash; GDPR/CCPA request handling, regular audits</li>
+                    </ol>
+
+                    <h2 id="ios">2. For Apple App Store (iOS)</h2>
+                    <p>This section details the technical compliance requirements for our applications published on the Apple App Store, including the latest 2026 update requirements.</p>
+
+                    <h3>2.1 Privacy Labels</h3>
+                    <p>Privacy label information must be accurately filled in the App Store backend. <strong>&ldquo;Data Linked to User&rdquo;</strong> (data associated with the user) must be strictly checked, because data such as IDFA and purchase records will be associated with the user profile, and the data association relationship must not be concealed. At the same time, the scope, purpose of data collection, and third-party sharing must be accurately filled in to ensure consistency with our <a href="privacy-policy.html">Privacy Policy</a>. Filling in false information will lead to application review rejection and removal.</p>
+
+                    <h3>2.2 ATT Mandatory Execution (2026 Upgrade Requirements)</h3>
+                    <ul>
+                        <li>Before obtaining <code>device_id</code> (IDFA), the <code>requestTrackingAuthorization</code> interface must be called first, popping up a window to request user authorization. The authorization text must clearly inform the user of the purpose of authorization (such as precision ad targeting), and must not mislead the user.</li>
+                        <li>If the user refuses authorization, <code>allow_tracking = false</code> must be transmitted to all third-party SDKs. IDFA must not be obtained or used without authorization, and the ATT framework restrictions must not be circumvented by other means.</li>
+                        <li>Adapting to the latest iOS 18 requirements, the ATT authorization pop-up can only be displayed once, and the user must not be harassed with multiple pop-ups. If the user refuses, no further authorization may be requested. The user can only be guided to enable authorization through the device system settings.</li>
+                        <li>User device identifiers must not be obtained through non-ATT channels, and other device parameters (such as MAC address) must not be used as IDFA substitutes to circumvent the Privacy Policy requirements.</li>
+                    </ul>
+
+                    <h3>2.3 Other iOS Technical Compliance Requirements</h3>
+                    <ul>
+                        <li><strong>No Hidden Functions:</strong> The application must not contain hidden functions or non-compliant code, and must not circumvent App Store review rules (such as hiding payment entrances, false function descriptions).</li>
+                        <li><strong>Sensitive Data Access:</strong> Adapting to the latest iOS 18 system privacy requirements, access to sensitive data (such as photos, contacts) requires the user's per-authorization. Default authorization or mandatory authorization is not allowed.</li>
+                        <li><strong>IAP Disclosure:</strong> In-app purchase items must clearly indicate prices and subscription periods. Inducement purchase traps must not be set, and users must not be misled into paying.</li>
+                        <li><strong>AI Content Marking:</strong> If the application contains AI-generated content, it must be clearly marked in the App Store details page, in compliance with Apple's AI compliance requirements.</li>
+                        <li><strong>Account Deletion:</strong> Apps that support account creation must provide in-app account deletion functionality that meets Apple's 5.1.1(v) guideline.</li>
+                        <li><strong>Privacy Manifest (PrivacyInfo.xcprivacy):</strong> Required Reason API usage must be declared.</li>
+                    </ul>
+
+                    <h2 id="android">3. For Google Play (Android)</h2>
+                    <p>This section details the technical compliance requirements for our applications published on Google Play, including the latest 2026 update requirements.</p>
+
+                    <h3>3.1 Data Safety Form</h3>
+                    <p>The data safety form must be accurately filled in the Google Play backend, clearly stating that data in transit is processed with encryption (<strong>HTTPS protocol encryption must be used</strong>), and data at rest is processed with <strong>AES-256 encryption</strong>. The scope, purpose of data collection, and third-party sharing must be accurately filled in. Data processing behavior must not be concealed. Filling in false information will lead to application review rejection and removal.</p>
+
+                    <h3>3.2 SDK Transparency (2026 Upgrade Requirements)</h3>
+                    <ul>
+                        <li>Google requires developers to take full responsibility for the behavior of integrated third-party SDKs. It is necessary to ensure that all integrated SDK versions support the latest Android 14+ Privacy Sandbox, and outdated SDKs (which may have privacy and security vulnerabilities) must not be used.</li>
+                        <li>The list of all integrated third-party SDKs must be publicly disclosed in the Google Play backend, clearly specifying the SDK name, purpose, and scope of data collection, ensuring the compliance of SDK data processing behavior. If an SDK engages in non-compliant data collection, it must be immediately removed and rectified.</li>
+                        <li>Adapting to the latest Android 15 requirements, integrated SDKs must not request permissions unrelated to application functions, must not arbitrarily collect user personal information, and must not interfere with the normal operation of the device.</li>
+                        <li>If the application supports the Android 15 private space feature, the logic must be adjusted according to the application type. Medical applications must clearly inform users not to install in private space to avoid affecting the operation of core functions. Launcher applications must declare relevant permissions and adapt to the display needs of private space applications.</li>
+                    </ul>
+
+                    <h3>3.3 Other Android Technical Compliance Requirements</h3>
+                    <ul>
+                        <li><strong>OTP Obscuring:</strong> Adapting to the latest Android 15 privacy protection measures, supporting the dynamic password (OTP) hiding function, hiding sensitive content during screen sharing, and sensitive fields of the application can be manually marked to protect user privacy and security.</li>
+                        <li><strong>Screen Sharing Indicator:</strong> When screen sharing, casting, or recording is active, a prominent notification label must be displayed in the status bar reminding the user of the active screen sharing state. Users may click the label to quickly stop sharing.</li>
+                        <li><strong>No Malicious Code:</strong> The application must not contain malicious code or ad plug-ins, must not forcibly push ads or induce users to click ads. Ad display must comply with Google Play ad policies.</li>
+                        <li><strong>64-bit Support:</strong> The application must support the 64-bit architecture, and the 32-bit version cannot be provided alone, ensuring compatibility with the latest Android devices.</li>
+                        <li><strong>Subscription Transparency:</strong> If the application contains subscription services, the subscription management entry must be clearly marked within the application, supporting users to cancel subscriptions at any time, in compliance with Google Play subscription policies.</li>
+                        <li><strong>Data Deletion Endpoint:</strong> Apps that handle sensitive user data must provide a clear data deletion endpoint.</li>
+                    </ul>
+
+                    <h2 id="data">4. 2026 Data Residency Compliance</h2>
+                    <p>With the increasing awareness of global data sovereignty in 2026, many countries / regions have introduced stricter data localization requirements. We must strictly follow the following rules to avoid violations:</p>
+                    <ul>
+                        <li><strong>Local Storage Default:</strong> If the application has a large number of users in a specific country / region (such as China, India, Saudi Arabia, Brazil, EU, Canada) (the specific threshold is subject to local regulations), local user data must be stored on compliant servers within that country / region, and may not be arbitrarily transferred abroad.</li>
+                        <li><strong>Cross-Border Transfer Rules:</strong> Cross-border data transfer must strictly follow local regulatory requirements, such as the EU GDPR adequacy decision, the security assessment / standard contract requirements of China's Regulations on Promoting and Regulating Cross-border Data Flows, and the cross-border transfer approval requirements of India DPDP Act. Data may not be transferred abroad without approval.</li>
+                        <li><strong>U.S. Compliance:</strong> Regarding the global data sovereignty disputes mentioned in the 2026 U.S. Trade Report, care must be taken to avoid trade compliance risks caused by cross-border data transfer. If the application is targeted at U.S. users, the requirements of the CLOUD Act must be followed, and U.S. regulatory authorities' data access requests (if any) must be cooperated with.</li>
+                        <li><strong>Regular Audits:</strong> Regularly check data storage locations to ensure compliance with local regulatory changes, such as Canada, Japan, Bolivia, Colombia, and other countries that have added new data localization requirements in 2026. Data storage strategies must be adjusted in a timely manner to avoid violations.</li>
+                        <li><strong>Compliance Ledger:</strong> Establish a data residency compliance ledger, record user data storage locations and transfer situations, regularly conduct compliance self-checks, and cooperate with local regulatory authority inspections.</li>
+                    </ul>
+
+                    <h2 id="ux">5. Interaction Design Suggestions</h2>
+                    <p>These guidelines supplement the technical compliance requirements with interaction design standards that improve both compliance and user trust.</p>
+
+                    <h3>5.1 Double Confirmation Mechanism</h3>
+                    <ul>
+                        <li>Before the user makes a large-amount IAP purchase (it is recommended that a single amount &ge; USD 50 / EUR 50), an in-app secondary confirmation pop-up must be added, clearly informing the user of the purchase amount, product name, and payment method. The user must manually click &ldquo;Confirm Purchase&rdquo; before jumping to the payment page, to avoid misoperation.</li>
+                        <li>For auto-renewal subscriptions, after the user clicks the &ldquo;Subscribe&rdquo; button, a pop-up confirmation must be displayed again, clearly informing the user of the subscription period, price, and renewal rules, to avoid accidental subscription.</li>
+                    </ul>
+
+                    <h3>5.2 Easy Accessibility of Privacy Policy (Mandatory Requirement)</h3>
+                    <p>The link to the Privacy Policy must exist in the following three locations simultaneously to ensure that users can view it at any time, in compliance with global compliance requirements:</p>
+                    <ol>
+                        <li>App store details page (App Store / Google Play description page in a prominent position).</li>
+                        <li>Application startup flash screen page (or login page). Users can click the link to view the full Privacy Policy. The flash screen page must have &ldquo;Agree&rdquo; and &ldquo;Reject&rdquo; buttons. After rejection, the application may not be used.</li>
+                        <li>The application&rsquo;s &ldquo;Settings&rdquo; or &ldquo;About&rdquo; menu. The link must be placed in a prominent position, and users can directly view the Privacy Policy by clicking, supporting user access at any time.</li>
+                    </ol>
+
+                    <h3>5.3 Other Interaction Compliance Suggestions</h3>
+                    <ul>
+                        <li><strong>Permission Request:</strong> When requesting user authorization (such as camera, photo album, location), the purpose of the permission must be clearly informed. Default or mandatory authorization is not allowed. The user may withdraw the authorization at any time in the application or device system settings.</li>
+                        <li><strong>Ad Interaction:</strong> Rewarded video ads must be clearly marked as &ldquo;Watch the complete ad to get rewards&rdquo;, and a &ldquo;Skip Ad&rdquo; button must be provided (which can be skipped after 5 seconds of ad playback). The user must not be forced to watch the ad.</li>
+                        <li><strong>Complaint Feedback:</strong> Convenient complaint feedback channels must be set up within the application, including privacy complaints, ad complaints, UGC content complaints, etc. The feedback processing time limit (no more than 7 business days) must be clearly defined, and the processing results must be fed back to the user.</li>
+                        <li><strong>Transparency Display:</strong> Ad delivery rules, algorithmic recommendation logic, and data processing workflows (simplified version) must be displayed in a prominent position within the application, in compliance with DSA transparency requirements, to protect users' right to know.</li>
+                        <li><strong>Screen Sharing Notification:</strong> Adapting to the latest Android 15 requirements, a prominent notification label must be displayed in the status bar during screen sharing, screen casting, and recording, reminding the user that the device is currently in the screen sharing state. The user may click the label to quickly stop sharing.</li>
+                        <li><strong>Dark Pattern Avoidance:</strong> No manipulative design patterns. Pre-checked boxes, hidden opt-outs, and confusing language are prohibited.</li>
+                    </ul>
+
+                    <h2 id="data-rights">6. Data Subject Rights Handling</h2>
+                    <p>For data subject requests (DSR) under GDPR, CCPA/CPRA, LGPD, PIPL, and other applicable laws, the following procedures apply:</p>
+                    <ul>
+                        <li><strong>Right of Access:</strong> Respond within 30 days. Provide a copy of personal data in a portable, machine-readable format.</li>
+                        <li><strong>Right of Rectification:</strong> Respond within 30 days. Correct inaccurate data and notify any third parties to whom the data was disclosed.</li>
+                        <li><strong>Right of Erasure:</strong> Respond within 30 days. Delete personal data unless a legal exception applies (e.g., ongoing transaction, legal obligation).</li>
+                        <li><strong>Right of Restriction:</strong> Pause processing while a dispute is being resolved.</li>
+                        <li><strong>Right of Portability:</strong> Provide data in JSON or CSV format.</li>
+                        <li><strong>Right of Objection:</strong> Stop processing for direct marketing or legitimate interest purposes upon request.</li>
+                        <li><strong>Right to Withdraw Consent:</strong> Easy one-tap withdrawal through in-app settings. Withdrawal does not affect the lawfulness of processing prior to withdrawal.</li>
+                    </ul>
+                    <p>To exercise any of these rights, contact <a href="mailto:privacy@cloudbitlogicpro.com">privacy@cloudbitlogicpro.com</a>.</p>
+
+                    <h2 id="audit">7. Compliance Auditing</h2>
+                    <p>Due to the continuous changes in the global legal environment (especially U.S. state privacy laws, EU DSA implementation rules), and the continuous update of app store policies and technical standards, it is recommended to conduct a routine review of this agreement and application compliance <strong>every 6 months</strong>. The specific review content includes:</p>
+                    <ul>
+                        <li><strong>Agreement Clauses:</strong> Check whether the agreement clauses comply with the latest regulations and app store policies, and whether they need to be supplemented or modified (such as adding regional compliance clauses, updating fraud penalty rules).</li>
+                        <li><strong>Application Compliance:</strong> Check whether the application code, SDK version, and interaction design comply with the latest technical compliance requirements (such as Android 15 / iOS 18 adaptation, ATT framework execution).</li>
+                        <li><strong>Data Processing:</strong> Check whether the data collection, storage, transmission, and sharing processes are compliant, whether data residency complies with local requirements, and whether third-party data sharing is controllable.</li>
+                        <li><strong>Anti-Fraud Mechanism:</strong> Check whether the advertising and in-app purchase anti-fraud rules are perfect, and whether it is necessary to update penalty measures according to the latest fraud methods.</li>
+                        <li><strong>User Requests:</strong> Check the handling of user data-related requests, whether there is any failure to respond in a timely manner or improper handling, and optimize the handling process.</li>
+                    </ul>
+
+                    <h3>7.1 Compliance Risk Prevention Measures</h3>
+                    <ul>
+                        <li>Establish a compliance review mechanism: Before application R&D and listing, conduct a comprehensive compliance review of the application code, privacy policy, service agreement, and interaction design to ensure compliance with App Store, Google Play policies, and global regional regulations, and avoid violations.</li>
+                        <li>Regularly update compliance knowledge: Assign dedicated personnel to pay attention to the latest changes in global privacy regulations and app store policies (such as U.S. state privacy laws, EU DSA updates, Android 15 / iOS 18 system policy changes), and timely adjust the application and agreement content.</li>
+                        <li>Third-party partner management: Regularly review the compliance of third-party ad platforms, SDK providers, and payment processors, sign compliance agreements, clarify data processing responsibilities, and immediately terminate cooperation if the third party engages in non-compliant behavior.</li>
+                        <li>User request handling: Establish a handling mechanism for user data-related requests (access, correction, deletion, complaint) to ensure response and handling within the prescribed time limit, retain handling records, and accept supervision by users and regulatory authorities.</li>
+                        <li>Security protection: Strengthen application data security protection, adopt encrypted storage, encrypted transmission, access permission control, and other technologies to prevent data leakage, tampering, and loss. Regularly conduct data security testing and risk assessment.</li>
+                        <li>Employee training: Regularly conduct compliance training for R&D, operation, customer service, and other relevant employees, popularize privacy regulations, app store policies, and anti-fraud rules, enhance employee compliance awareness, and avoid violations caused by improper operations.</li>
+                    </ul>
+
+                    <h2 id="incident">8. Incident Response</h2>
+                    <p>In the event of a data breach or security incident, the following procedures apply:</p>
+                    <ul>
+                        <li><strong>Detection & Containment (0-24h):</strong> Identify the scope, contain the breach, preserve evidence.</li>
+                        <li><strong>Assessment (24-72h):</strong> Determine the risk level, affected users, regulatory obligations.</li>
+                        <li><strong>Notification (within 72h):</strong> Notify the lead supervisory authority (GDPR Article 33). Notify affected users if the breach poses a high risk to their rights (Article 34).</li>
+                        <li><strong>Remediation:</strong> Patch the vulnerability, restore service, conduct post-mortem.</li>
+                        <li><strong>Documentation:</strong> Maintain an incident register for regulatory review.</li>
+                    </ul>
+                    <p>For U.S. state breach notification laws, the applicable state's attorney general and affected residents will be notified within the statutory time limits (typically 30-60 days).</p>
+
+                    <h2 id="contact">9. Contact Information</h2>
+                    <p>For technical compliance questions, data protection requests, or to report a vulnerability:</p>
+                    <ul>
+                        <li><strong>Data Protection Officer:</strong> <a href="mailto:privacy@cloudbitlogicpro.com">privacy@cloudbitlogicpro.com</a></li>
+                        <li><strong>Security Reports:</strong> <a href="mailto:security@cloudbitlogicpro.com">security@cloudbitlogicpro.com</a></li>
+                        <li><strong>Business:</strong> <a href="mailto:contact@cloudbitlogicpro.com">contact@cloudbitlogicpro.com</a></li>
+                        <li><strong>Support:</strong> <a href="mailto:support@cloudbitlogicpro.com">support@cloudbitlogicpro.com</a></li>
+                        <li><strong>Postal Address:</strong> Delaware Technology Park, USA</li>
+                    </ul>
+
+                    <p style="margin-top: var(--space-xl); padding-top: var(--space-md); border-top: 1px solid var(--c-border); font-size: 0.85rem; color: var(--c-text-tertiary);">
+                        &copy; 2020 - 2026 cloudbitlogicpro. All rights reserved. This document is the 2026 Global Full-Compliance Deep-Enhanced Edition. For the full Privacy Policy and Service Agreement, see <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-of-service.html">Terms of Service</a>.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer" role="contentinfo">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="nav-logo">
+                    <svg class="logo-icon" viewBox="0 0 64 64" aria-hidden="true" style="width: 32px; height: 32px;">
+                        <defs>
+                            <linearGradient id="footLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#00f0ff"/>
+                                <stop offset="100%" stop-color="#7c3aed"/>
+                            </linearGradient>
+                        </defs>
+                        <path d="M22 40 C10 40 2 32 2 22 C2 12 10 4 22 4 C26 4 30 5 32 7 C36 2 41 -1 47 -1 C56 -1 63 6 63 14 C63 16 63 18 62 20 C67 22 70 27 70 32 C70 39 64 44 57 44 Z" transform="translate(-3,8)" fill="none" stroke="url(#footLogoGrad)" stroke-width="2.5" stroke-linejoin="round"/>
+                        <text x="14" y="40" font-family="monospace" font-size="14" fill="url(#footLogoGrad)" font-weight="700">cb</text>
+                    </svg>
+                    <span class="logo-text">cloudbit<span class="accent">logic</span></span>
+                </a>
+                <p>A boutique R&D studio building minimalist, privacy-first digital products. Based in Delaware, USA. Working globally.</p>
+                <div class="footer-contact">
+                    <div><span class="contact-label">Support</span> <a href="mailto:support@cloudbitlogicpro.com">support@cloudbitlogicpro.com</a></div>
+                    <div><span class="contact-label">Contact</span> <a href="mailto:contact@cloudbitlogicpro.com">contact@cloudbitlogicpro.com</a></div>
+                    <div><span class="contact-label">Address</span> <span>Delaware Technology Park, USA</span></div>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Studio</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="advantages.html">Advantages</a></li>
+                    <li><a href="news.html">Updates</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-of-service.html">Terms of Service</a></li>
+                    <li><a href="technical-compliance.html">Technical Compliance</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="mailto:contact@cloudbitlogicpro.com">Email</a></li>
+                    <li><a href="https://twitter.com/cloudbitlogic" rel="noopener" target="_blank">Twitter / X</a></li>
+                    <li><a href="https://github.com/cloudbitlogic" rel="noopener" target="_blank">GitHub</a></li>
+                    <li><a href="https://linkedin.com/company/cloudbitlogic" rel="noopener" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2020 - 2026 cloudbitlogicpro. All rights reserved.</p>
+            <div class="footer-legal">
+                <a href="privacy-policy.html">Privacy</a>
+                <a href="terms-of-service.html">Terms</a>
+                <a href="technical-compliance.html">Compliance</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/main.js" defer></script>
+<script src="js/animations.js" defer></script>
+</body>
+</html>
